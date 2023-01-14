@@ -1,15 +1,16 @@
 import React from "react";
+import SectionLayout from "./SectionLayout";
+import SectionSubtitle from "./SectionSubtitle";
 
 const About = () => {
   return (
     <section className="section-height">
-      <div className="max-w-[1000px] w-full grid grid-cols-2 mx-auto pt-[4rem]">
+      <SectionLayout>
         <div className="flex flex-col gap-4">
           <span className="text-green-400">PREMIUM BANK</span>
-
-          <h2 className="text-[4rem] leading-[4rem] font-bold">
+          <SectionSubtitle>
             Unlimited Transactions with zero fees
-          </h2>
+          </SectionSubtitle>
 
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -23,7 +24,7 @@ const About = () => {
           </button>
         </div>
         <div className="bg-green-400"></div>
-      </div>
+      </SectionLayout>
     </section>
   );
 };

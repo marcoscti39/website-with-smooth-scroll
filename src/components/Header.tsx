@@ -11,7 +11,7 @@ const Header = () => {
 
           <ul className="flex gap-4 items-center">
             <li className="relative py-2 px-[1.25rem] link">
-              <a href="">About</a>
+              <a href="#about">About</a>
               <div className=""></div>
             </li>
             <li className="relative py-2 px-[1.25rem]">
@@ -27,7 +27,7 @@ const Header = () => {
 
           <a
             href=""
-            className="font-semibold text-black py-2 px-[1.25rem] px-4 rounded-[100vh] bg-green-400"
+            className="font-semibold text-black py-2 px-[1.25rem] rounded-[100vh] bg-green-400"
           >
             Sign In
           </a>
